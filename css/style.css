@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2, h3 {
+    color: #1f405f;
+    font-weight: 500;
+}
+
+.header {
+    background: linear-gradient(90deg, rgba(255, 142, 112, 1) 0%, rgba(255, 88, 91, 1) 100%);
+    border-radius: 0 0 0 50px;
+    color: #ffffff;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+
+.wrapper {
+    max-width: 1440px;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.header .container {
+    padding: 60px 0 156px 0;
+}
+
+.header__top {
+    justify-content: space-between;
+}
+
+.header__nav {
+    overflow: hidden;
+}
+
+.header__nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header__top {
+    display: flex;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__right {
+    display: flex;
+    padding-left: 50px;
+}
+
+.header__nav-dropdown .header__nav-dropdown-button {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.header__nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.header__nav-dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+.header__nav-dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.header__nav-dropdown:hover .header__nav-dropdown-content {
+    display: block;
+}
+
+.footer {
+    background-color: #24242c;
+    border-radius: 0 50px 0 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer li {
+    list-style: none;
+}
